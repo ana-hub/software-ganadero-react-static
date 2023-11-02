@@ -1,0 +1,273 @@
+{
+  "inventario": [
+    {
+      "id": 1,
+      "nombre": "Alimento para ganado",
+      "tipo": "Suministro",
+      "cantidad": 1000,
+      "unidadMedida": "kg",
+      "descripcion": "Alimento para el ganado vacuno",
+      "fechaCompra": "2023-02-10",
+      "proveedor": "Proveedor A"
+    },
+    {
+      "id": 2,
+      "nombre": "Vacuna contra la fiebre aftosa",
+      "tipo": "Medicamento",
+      "cantidad": 500,
+      "unidadMedida": "dosis",
+      "descripcion": "Vacuna para prevenir la fiebre aftosa en el ganado",
+      "fechaCompra": "2023-01-15",
+      "proveedor": "Proveedor B"
+    },
+    {
+      "id": 3,
+      "nombre": "Tractor",
+      "tipo": "Equipo",
+      "cantidad": 2,
+      "unidadMedida": "unidad",
+      "descripcion": "Tractor para labores agrícolas",
+      "fechaCompra": "2022-11-20",
+      "proveedor": "Proveedor C"
+    },
+    {
+      "id": 4,
+      "nombre": "Alambre de púas",
+      "tipo": "Material",
+      "cantidad": 500,
+      "unidadMedida": "metros",
+      "descripcion": "Alambre de púas para cercado",
+      "fechaCompra": "2023-03-10",
+      "proveedor": "Proveedor A"
+    }
+  ],
+  "animales": [
+    {
+      "id": 1,
+      "numeroIdentificacion": "A001",
+      "raza": "Holstein",
+      "edad": 3,
+      "peso": 600,
+      "historialSalud": "Buena salud",
+      "fechaNacimiento": "2020-03-15"
+    },
+    {
+      "id": 2,
+      "numeroIdentificacion": "A002",
+      "raza": "Angus",
+      "edad": 2,
+      "peso": 700,
+      "historialSalud": "Control médico regular",
+      "fechaNacimiento": "2021-06-22"
+    },
+    {
+      "id": 3,
+      "numeroIdentificacion": "A003",
+      "raza": "Hereford",
+      "edad": 4,
+      "peso": 550,
+      "historialSalud": "Vacunado contra enfermedades comunes",
+      "fechaNacimiento": "2019-12-05"
+    },
+    {
+      "numeroIdentificacion": "1",
+      "raza": "Holstein",
+      "edad": "25",
+      "peso": "100",
+      "historialSalud": "",
+      "fechaNacimiento": null,
+      "id": 4
+    }
+  ],
+  "pastoreo": [
+    {
+      "id": 1,
+      "fecha": "2023-10-15",
+      "areaPastoreo": "Campo A",
+      "alimentacion": "Pasto y suplemento",
+      "calidadPasto": "Buena",
+      "nivelesAgua": "Suficientes"
+    },
+    {
+      "id": 2,
+      "fecha": "2023-10-16",
+      "areaPastoreo": "Campo B",
+      "alimentacion": "Pasto fresco",
+      "calidadPasto": "Excelente",
+      "nivelesAgua": "Óptimos"
+    },
+    {
+      "id": 3,
+      "fecha": "2023-10-17",
+      "areaPastoreo": "Campo C",
+      "alimentacion": "Pasto seco y concentrado",
+      "calidadPasto": "Aceptable",
+      "nivelesAgua": "Bajos"
+    }
+  ],
+  "salud_animales": [
+    {
+      "id": 1,
+      "fecha": "2023-10-15",
+      "signosVitales": "Pulso: 80, Temperatura: 38.5°C, Respiración: 20",
+      "vacunaciones": "Vacuna A, Vacuna B",
+      "tratamientosMedicos": "Antibiótico C, Desparasitante D",
+      "enfermedades": "Gripe equina",
+      "informeDiagnostico": "Animal en proceso de recuperación."
+    },
+    {
+      "id": 2,
+      "fecha": "2023-10-16",
+      "signosVitales": "Pulso: 75, Temperatura: 38.0°C, Respiración: 22",
+      "vacunaciones": "Vacuna B",
+      "tratamientosMedicos": "Antibiótico E",
+      "enfermedades": "No aplica",
+      "informeDiagnostico": "Animal en buen estado de salud."
+    },
+    {
+      "id": 3,
+      "fecha": "2023-10-17",
+      "signosVitales": "Pulso: 88, Temperatura: 38.2°C, Respiración: 18",
+      "vacunaciones": "Vacuna A, Vacuna C",
+      "tratamientosMedicos": "Desparasitante D",
+      "enfermedades": "Problemas digestivos",
+      "informeDiagnostico": "Animal bajo supervisión médica."
+    }
+  ],
+  "ventas": [
+    {
+      "id": 1,
+      "producto": "Carne",
+      "cantidad": 5,
+      "cliente": "Juan Pérez",
+      "direccion": "Calle 123, Ciudad X",
+      "estado": "Pendiente"
+    },
+    {
+      "id": 2,
+      "producto": "Leche",
+      "cantidad": 10,
+      "cliente": "María Gómez",
+      "direccion": "Avenida Principal, Ciudad Y",
+      "estado": "Entregado"
+    },
+    {
+      "id": 3,
+      "producto": "Queso",
+      "cantidad": 3,
+      "cliente": "Pedro Ramírez",
+      "direccion": "Calle 456, Ciudad YZ",
+      "estado": "Pendiente"
+    }
+  ],
+  "trabajadores": [
+    {
+      "id": 1,
+      "nombre": "Juan",
+      "apellido": "Pérez",
+      "numeroIdentificacion": "123456789",
+      "historialEmpleo": "Supervisor de pastoreo",
+      "salario": 2500,
+      "permisos": [
+        "Permiso A",
+        "Permiso B"
+      ],
+      "certificaciones": [
+        "Certificación X",
+        "Certificación Y"
+      ]
+    },
+    {
+      "id": 2,
+      "nombre": "María",
+      "apellido": "Gómez",
+      "numeroIdentificacion": "987654321",
+      "historialEmpleo": "Veterinario",
+      "salario": 3000,
+      "permisos": [
+        "Permiso C"
+      ],
+      "certificaciones": [
+        "Certificación Z"
+      ]
+    },
+    {
+      "id": 3,
+      "nombre": "Pedro",
+      "apellido": "Rodríguez",
+      "numeroIdentificacion": "567891234",
+      "historialEmpleo": "Granjero",
+      "salario": 2000,
+      "permisos": [
+        "Permiso A",
+        "Permiso D"
+      ],
+      "certificaciones": []
+    }
+  ],
+  "actividades": [
+    {
+      "id": 1,
+      "tipo": "Alimentación de animales",
+      "descripcion": "Alimentación de ganado en el corral",
+      "fecha": "2023-10-19"
+    },
+    {
+      "id": 2,
+      "tipo": "Pastoreo",
+      "descripcion": "Pastoreo en el campo 1",
+      "fecha": "2023-10-20"
+    },
+    {
+      "id": 3,
+      "tipo": "Mantenimiento de infraestructura",
+      "descripcion": "Reparación de cercas en el corral",
+      "fecha": "2023-10-21"
+    },
+    {
+      "id": 4,
+      "tipo": "Otra actividad",
+      "descripcion": "Reunión de equipo",
+      "fecha": "2023-10-22"
+    }
+  ],
+  "rendimiento_animales": [
+    {
+      "id": 1,
+      "numeroIdentificacion": "A001",
+      "raza": "Holstein",
+      "produccion": {
+        "leche": 250,
+        "carne": 150
+      }
+    },
+    {
+      "id": 2,
+      "numeroIdentificacion": "A002",
+      "raza": "Angus",
+      "produccion": {
+        "leche": 300,
+        "carne": 200
+      }
+    },
+    {
+      "id": 3,
+      "numeroIdentificacion": "A003",
+      "raza": "Hereford",
+      "produccion": {
+        "leche": 200,
+        "carne": 180
+      }
+    },
+    {
+      "id": 4,
+      "numeroIdentificacion": "A004",
+      "raza": "Jersey",
+      "produccion": {
+        "leche": 280,
+        "carne": 160
+      }
+    }
+  ]
+}
+
